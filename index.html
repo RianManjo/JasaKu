@@ -1,296 +1,158 @@
-<html>
-    <head>
-        <title>Jasaku</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasaku</title>
 
-        <!-- Icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Section Nav -->
+    <div class="navbar fixed-top">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/images/logo-jasaku.svg" alt="">
+            </div>
+            <div class="menus">
+                <ul class="menu">
+                    <li class="list-menu"><a href="#">Beranda</a></li>
+                    <li class="list-menu"><a href="#">Layanan</a></li>
+                    <li class="list-menu"><a href="#">Harga</a></li>
+                    <li class="list-menu"><a href="#">Tentang Kami</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="btn-contact">Hubungi Kami</button>
+            </div>
+        </div>
+    </div>
 
-        <!-- Font Style -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <!-- Section Nav End-->
 
-        <!-- Link CSS -->
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <!-- Navbar -->
-        <header>
-            <a href="#" class="logo">
-                <img src="assets/image/logo.png" alt="">
-            </a>
-            <ul>
-                <li><a href="">Beranda</a></li>
-                <li><a href="#layanan">Layanan</a></li>
-                <li><a href="#harga">Harga</a></li>
-                <li><a href="#tentang">Tentang Kami</a></li>
-                <li><button class="btn_hub" type="submit"><a href="https://wa.me/6282187864768" target="_blank">Hubungi Kami</a></button></li>
-            </ul>
-        </header>
-        <section class="banner">                        
-        </section>
-        <!-- Navbar Selesai -->
-
-        <!-- Container Satu -->
-        <section class="container1">
-            <div class="content1">
-                <div class="title1">
-                    <h1 class="text1">Percayakan Kebutuhan <span>Jasa</span> <br>Anda <span>Kepada Kami</span>, Karena <br>Kepuasan Anda <br><span>Tujuan Utama Kami</span></h1>
-                    <p class="text2">Balla Beru akan selalu berusaha menjadi mitra terpercaya <br>bagi Anda, dengan memberikan layanan <br>yang transparan dan jujur intinya tidak na kasi rugi ki'</p>
-                    <div class="img">
-                        <img src="assets/image/people.png" alt="">
-                    </div>
-                    
+    <!-- Section One -->
+    <section id="Main">
+        <div class="container">
+            <div class="row">
+                <div class="col-7">
+                    <p class="title">Percayakan Kebutuhan <span>Jasa</span><br> Anda <span>Kepada Kami</span>, Karena <br> Kepuasan Anda <br><span>Tujuan Utama Kami</span></p>
+                    <p class="sub-title">Balla Bero akan selalu berusaha menjadi mitra terpercaya <br> bagi Anda, dengan memberikan layanan <br> yang transparan dan jujur intinya tidak na kasi rugi ki'</p>
+                </div>
+                <div class="col-5">
+                    <img src="assets/images/image-person.svg" alt="">
                 </div>
             </div>
-        </section>
-        <!-- Container Satu Selesai -->
+        </div>
+    </section>
+    <!-- Section One End -->
 
-        <!-- Container Dua -->
-        <section class="container2">
-            <div class="content2">
-                <div class="title2">
-                    <h2 class="text3">BENEFIT</h1>
-                    <h1 class="text4">Solusi Tepat Untuk <br><span>Semua Aktivitas Anda</span></h1>
-                </div>
-                <div class="bungkus">
-                    <ul class="luaran">
-                        <li class="card">
-                            <div>
-                                <img class="img1" src="assets/image/card1.png" alt="">
-                                <h1 class="text5" >Semua proses <br>dalam satu app</h1>
-                                <p class="text6">Mulai dari Nol hunian Anda <br>bisa selesai dengan 1 tombol</p>
-                            </div>
-                        </li>
-                        <li class="card1">
-                            <div>
-                                <img class="img1" src="assets/image/card2.png" alt="">
-                                <h1 class="text5">Hunian Layaknya <br>Hotel</h1>
-                                <p class="text6">Arsitektur dan Desain interior <br>yang sudah tidak diragukan <br>lagi</p>
-                            </div>
-                        </li>
-                        <li class="card2">
-                            <div>
-                                <img class="img1" src="assets/image/card3.png" alt="">
-                                <h1 class="text5">Ada harga ada <br>Kualitas </h1>
-                                <p class="text6">Kualitas yang kami berikan <br>bisa di sesuaikan dengan <br>bugdget Anda</p>
-                            </div>
-                        </li>
-                        <li class="card3">
-                            <div>
-                                <img class="img1" src="assets/image/card4.png" alt="">
-                                <h1 class="text5">Team Kami siap <br>membantu Anda</h1>
-                                <p class="text6">Team yang sudah tidak di <br>ragukan lagi, dan Anda juga <br>bisa menjadi bagian dari team <br>kami.</p>
-                            </div>
-                        </li>                        
-                    </ul>
+    <!-- Section Two -->
+    <section id="Menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title">BENEFIT</p>
+                    <p class="sub-title">Solusi Tepat Untuk <br><span>Semua Aktivitas Anda</span></p>
                 </div>
             </div>
-        </section>
-        <!-- container Dua Selesai -->
-
-        <!-- Container Tiga -->
-        <section class="container3">
-            <div id="layanan">
-                <div>
-                    <h2 class="text7">LAYANAN</h2>
-                    <h1 class="text8">Kepuasan Anda Prioritas Kami</h1>
-                </div>
-                <div class="wrap1">                    
-                        <ul class="wrapper">
-                            <li class="box1">
-                                <div>
-                                    <img class="img2" src="assets/image/img1.png" alt="">
-                                    <h1 class="text9">Jasa Pembangungan <br>Rumah</h1>
-                                    <p class="text10">Memberikan fasilitas terbaik <br>dari arsitek dan desain <br>interior yang profesional</p>
-                                </div>
-                            </li>
-                            <li class="box2">
-                                <div>
-                                    <img class="img2" src="assets/image/img2.png" alt="">
-                                    <h1 class="text9">Jasa Perbaikan Rumah</h1>
-                                    <br>       
-                                    <br>
-                                    <p class="text10">Perbaikan rumah dengan bahan sesuai <br>dengan apa yang Anda inginkan</p>
-                                </div>
-                            </li>
-                            <li class="box3">
-                                <div>
-                                    <img class="img2" src="assets/image/img3.png" alt="">
-                                    <h1 class="text9">Jasa Perbaikan <br>Barang Elektronik</h1>
-                                    <p class="text10">Ada kerusakan, kami siap perbaiki <br>hingga barang anda bisa digunakan <br>lagi</p>
-                                </div>
-                            </li>
-                        </ul>                
-                </div>
-            </div>
-        </section>
-        <!-- Container Tiga Selesai -->
-
-
-        <!-- Container Empat -->
-        <section class="container4">
-            <div id="tentang">
-                <div>
-                    <h2 class="text7">TENTANG KAMI</h2>
-                    <p class="text11">Temukan Kami <br><span>dalam satu tombol</span></p>
-                    <p class="text12">Mampu menyesuaikan diri dengan kebutuhan <br>dan permintaan pelanggan</p>
-                    <div class="btnlangganan">
-                        <button class="btnlang"><a href="#">Langganan</a></button>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <div class="icon">
+                            <img src="assets/images/icon-card1.svg" alt="">
+                        </div>
+                        <div class="desc-title">
+                            <p class="title">Semua Proses dalam satu app</p>
+                            <p class="sub-title">Mulai dari Nol hunian anda bisa selesai dengan 1 tombol</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card5">
-                    <ul class="rounded">
-                        <li class="rounded1">
-                            <img src="assets/image/koin.png" alt="">
-                            <h2 class="text13">100Jt<span>+</span></h2>
-                            <p class="text14">Anda sudah bisa merasakan <br>hunian ternyaman</p>
-                        </li>
-                        <li class="rounded2">
-                            <img src="assets/image/tuas.png" alt="">
-                            <h2 class="text13">18 <span>Jt+</span></h2>
-                            <p class="text14">Anda bisa merenovasi Hunian <br>Anda mulai dengan harga 1 <br>juta</p>
-                        </li>
-                        <li class="rounded3">
-                            <img src="assets/image/person.png" alt="">
-                            <h2 class="text13">100 <span>+</span></h2>
-                            <p class="text14">Konstruktor, Profesional</p>
-                        </li>
-                    </ul>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="icon">
+                            <img src="assets/images/icon-card2.svg" alt="">
+                        </div>
+                        <div class="desc-title">
+                            <p class="title">Hunian layaknya Hotel</p>
+                            <p class="sub-title">Arsitektur dan Desain interior yang sudah tidak diragukan lagi</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="icon">
+                            <img src="assets/images/icon-card3.svg" alt="">
+                        </div>
+                        <div class="desc-title">
+                            <p class="title">Ada harga ada Kualitas</p>
+                            <p class="sub-title">Kualitas yang kami berikan bisa disesuaikan dengan budget anda</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <div class="icon">
+                            <img src="assets/images/icon-card4.svg" alt="">
+                        </div>
+                        <div class="desc-title">
+                            <p class="title">Team Kami siap membantu Anda</p>
+                            <p class="sub-title">Team yang sudah tidak di ragukan lagi, dan anda juga bisa menjadi dari team kami.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Container Empat Selesai -->
+        </div>
+    </section>
+    <!-- Section Two End -->
 
-        <!-- Container Lima -->
-        <section class="container5">
-            <div id="harga">
-                <div class="bungkus1">
-                    <ul class="kotak">
-                        <li class="kotak1">
-                            <h1 class="text15">Harga Jasa Kontraktor <br>(Tanpa Material)</h1>
-                            <img class="img4" src="assets/image/rumah.png" alt="">
-                            <p class="text16">Rumah sederhana <br>Rp. 1.200.000 - 1.500.000/m2</p>
-                            <br>
-                            <p class="text16">Rumah SNI <br> Rp. 1500.000 - 1.700.000/m2</p>
-                            <br>
-                            <p class="text16">Rumah Lantai 2 <br>Rp. 1.700.000 - 2.000.000/m2</p>
-                        </li>
-                        <li class="kotak2">
-                            <h1 class="text15">Harga Jasa Kontraktor <br>(Material)</h1>
-                            <img class="img4" src="assets/image/material.png" alt="">
-                            <p class="text16">Rumah sederhana <br>Rp. 4.000.000 - 4.500.000/m2</p>
-                            <br>
-                            <p class="text16">Rumah 2 - 3 Lantai <br>Rp. 4.500.000 - 5.500.000/m2</p>
-                        </li>
-                    </ul>
+    <!-- Section Three -->
+     <section id="Layanan">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="title">LAYANAN</p>
+                    <p class="sub-title">Kepuasan Anda Prioritas Kami</p>
                 </div>
             </div>
-            
-        </section>
-        <!-- Container Lima Selesai -->
-
-        <!-- Container Enam -->
-        <section class="container6">
-            <div class="bungkus2">
-                <img src="assets/image/logo.png" alt="">                                
-            </div>
-            <div>
-                <h1 class="text17">JasaKu adalah sebuah platform jasa online yang mempertemukan <br>para penyedia jasa dengan calon pelanggan yang membutuhkan jasa tersebut <br><br>Kami menawarkan beragam jenis jasa mulai dari jasa pembangunan rumah, perbaikan rumah,<br> instalasi listrik, dan jasa perbaikan barang elektronik. <br> Dengan sistem yang mudah digunakan dan pilihan jasa yang beragam, <br>Jasaku hadir sebagai solusi bagi para pengguna yang ingin mencari jasa <br> dengan mudah dan cepat. <br><br>Tim kami yang profesional dan terpercaya akan selalu siap membantu Anda <br>menemukan jasa yang tepat untuk memenuhi kebutuhan Anda.</h1>
-            </div>
-        </section>
-        <!-- Container Enam Selesai -->
-
-
-        <!-- Container Tujuh -->
-        <section class="container7">
-            <div class="bungkus3">
-                <ul class="kot">
-                    <li class="kot2">
-                        <img  src="assets/image/bg1.png" alt="">
-                        <div class="overlay">
-                            <div class="conten">
-                                <div class="img6">
-                                    <img src="assets/image/Vector.png" alt="">
-                                </div>                                
-                                <h3 class="text20" style="color: #F2CA44; font-weight: bold;" >Bermitra dengan kami</h3>                                
-                                <h3 class="text21" style="font-size: 16px; color: #fff; padding-top: 2vh;">Bergabung dan jadi bagian dari <br>perubahan</h3>
-                            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="assets/images/img-card1.svg" alt="">
                         </div>
-                    </li>
-                    <li class="kot2">
-                        <img src="assets/image/bg2.png" alt="">
-                        <div class="overlay">
-                            <div class="conten">
-                                <div class="img6">
-                                    <img src="assets/image/Vector (1).png" alt="">
-                                </div>
-                                <h3 class="text20" style="color: #F2CA44; font-weight: bold;">Lihat Produk Kami</h3>
-                                <h3 class="text21" style="font-size: 16px; color: #fff; padding-top: 2vh;">Memberikan Anda Jasa Terbaik yang <br>Kami Miliki</h3>
-                            </div>
+                        <div class="desc-title">
+                            <p class="title">Jasa Pembangunan Rumah</p>
+                            <p class="sub-title">Memeriksa fasilitas terbaik dari arsitek dan desain interior yang profesional</p>
                         </div>
-                    </li>
-                    <li class="kot2">
-                        <img src="assets/image/bg3.png" alt="">
-                        <div class="overlay">
-                            <div class="conten">
-                                <div class="img6">
-                                    <img src="assets/image/Vector (2).png" alt=""> 
-                                </div>
-                                <h3 class="text20" style="color: #F2CA44; font-weight: bold;">Bergabung Bersama Kami</h3>
-                                <h3 class="text21" style="font-size: 16px; color: #fff; padding-top: 2vh;">Ayo Bergabung dan Membuat Sejarah</h3>                                                            
-                            </div>
-                            
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="assets/images/img-card2.svg" alt="">
                         </div>
-                    </li>
-                </ul>
+                        <div class="desc-title">
+                            <p class="title">Jasa Pembangunan Rumah</p>
+                            <p class="sub-title">Memeriksa fasilitas terbaik dari arsitek dan desain interior yang profesional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="image">
+                            <img src="assets/images/img-card3.svg" alt="">
+                        </div>
+                        <div class="desc-title">
+                            <p class="title">Jasa Pembangunan Rumah</p>
+                            <p class="sub-title">Memeriksa fasilitas terbaik dari arsitek dan desain interior yang profesional</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        </section>
-        <!-- Container Tujuh Selesai -->
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div>
-                <img class="img5" src="assets/image/logo2.png" alt="">
-                <br>                
-            </div>
-            <div>
-                <ul class="bungkus4">
-                    <li class="ron1">
-                        <a href="https://goo.gl/maps/ML2ZLfCEPhpXiPiu8" target="_blank"><img src="assets/image/Indonesia (ID).png" alt=""></a>                    
-                        <img src="assets/image/Vietnam (VN).png" alt="">
-                        <img src="assets/image/India (IN).png" alt="">
-                        <img src="assets/image/Thailand (TH).png" alt="">
-                    </li>
-                    <p class="text18">Indonesia</p>
-                    <p class="text19">Gedung Minasa Upa, Makassar <br>Blok K2 No.21</p>
-                    <br>
-                    <br>
-                    <p class="text18">PT.JasaKu' &copy Indonesia 2023. All Rights Reserved.</p>
-                </ul>
-                <ul class="bungkus5">
-                    <li class="text20">
-                        <p class="text21">Kontak</p>
-                        <br>
-                        <p>P: 0821 080649855 (Rifka)</p>
-                        <p>P: 0984 383913189 (Rian)</p>
-                        <p>E: Jasaku@gmail.com</p>
-                    </li>
-                </ul>
-                <br><br><br><br><br>                                
-                <ul class="bungkus6">
-                    <li class="icon_sosial">
-                        <a href="https://www.bing.com/ck/a?!&&p=6402cd0f9b0a815cJmltdHM9MTY4NTY2NDAwMCZpZ3VpZD0zZGU2ZmIwNS1jOTc5LTY1Y2ItMzZjNS1lYjk5Yzg3OTY0YmEmaW5zaWQ9NTE5Mw&ptn=3&hsh=3&fclid=3de6fb05-c979-65cb-36c5-eb99c87964ba&psq=youtube&u=a1aHR0cHM6Ly93d3cueW91dHViZS5jb20vaW5kZXg&ntb=1" target="_blank"><i class="fab fa-youtube fa-2x"></i></a> 
-                        <a href="https://www.bing.com/ck/a?!&&p=2d98be90e9e313aaJmltdHM9MTY4NTY2NDAwMCZpZ3VpZD0zZGU2ZmIwNS1jOTc5LTY1Y2ItMzZjNS1lYjk5Yzg3OTY0YmEmaW5zaWQ9NTE5OQ&ptn=3&hsh=3&fclid=3de6fb05-c979-65cb-36c5-eb99c87964ba&psq=facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1" target="_blank"><i class="fab fa-facebook fa-2x"></i></a> 
-                        <a href="https://www.bing.com/ck/a?!&&p=e5dde679f9583659JmltdHM9MTY4NTY2NDAwMCZpZ3VpZD0zZGU2ZmIwNS1jOTc5LTY1Y2ItMzZjNS1lYjk5Yzg3OTY0YmEmaW5zaWQ9NTE3OA&ptn=3&hsh=3&fclid=3de6fb05-c979-65cb-36c5-eb99c87964ba&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS8_bGFuZz1lbi1pZA&ntb=1" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-                        <a href="https://www.bing.com/ck/a?!&&p=6541c0130ea9d34fJmltdHM9MTY4NTY2NDAwMCZpZ3VpZD0zZGU2ZmIwNS1jOTc5LTY1Y2ItMzZjNS1lYjk5Yzg3OTY0YmEmaW5zaWQ9NTE4OA&ptn=3&hsh=3&fclid=3de6fb05-c979-65cb-36c5-eb99c87964ba&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8&ntb=1" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>                                                
-                    </li>
-                </ul>
-            </div>
-        </footer>
-        <!-- Footer Selesai -->
-
-        <script src="navbar.js"></script>
-    </body>
+        </div>
+     </section>
+    <!-- Section Three End -->
+</body>
 </html>

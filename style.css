@@ -1,609 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *,html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
 }
 
-a {
+.navbar {
+    backdrop-filter: blur(70px);    
+}
+
+.navbar .logo img {
+    width: 191px;
+    height: 70px;
+}
+
+.menus .menu {
+    display: flex;
+}
+
+.menus .menu .list-menu {
+    list-style: none;    
+}
+
+.menus .menu .list-menu a {        
     text-decoration: none;
-}
-
-/* Navbar */
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.6s;
-    padding: 40px 100px;
-    z-index: 10000;
-}
-
-header.sticky {
-    padding: 26px 100px;
-    background-color: rgb(232, 232, 232);
-}
-
-header .logo {
-    position: relative;
-    font-weight: 700px;
     color: #727272;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    transition: 0.6s;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0px 10px 0px 10px;    
 }
 
-header ul {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-}
-
-header ul li a {
-    position: relative;
-    margin: 0 15px;
-    color:#727272;
-    font-weight: 500px;
-    transition: 0.6s;
-}
-
-header.sticky ul li a {
-    color: #000;
-}
-
-header a img {
-    
-    height: auto;
-    width: 150px;
-}
-
-.btn_hub {
+.btn-contact {
+    color: #FFF;
     background-color: #F2CA44;
-    color: #fff;
-    width: 137px;
-    height: 47px;
-    border-radius: 20px;
+    width: 136px;
+    height: 48px;
     border: none;
+    border-radius: 16px;
     font-family: 'Mulish', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
 }
 
-.btn_hub a{
-    color: #fff;
+#Main {
+
 }
 
-.banner {
-    position: relative;
-    width: 100%;
-    height: 15vh;
-    background-color: white;
-}
-/* Navbar Selesai */
-
-
-/* Content Satu*/
-.container1 {    
-    height: 80vh;
-}
-
-.content1 {
-    padding-top: 25vh;
-    padding-left: 15vh;    
-}
-
-.text1 {
-    font-size: 36px;
-    font-family: 'Mulish', sans-serif;
+#Main .title {
+    margin: 182px 0px 0px 0px;
     color: #000;
+    font-size: 42px;
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;    
 }
 
-.text1 span {
+#Main .title span {
     color: #F2CA44;
 }
 
-.text2 {
-    color: #727272;
+#Main .sub-title {
+    color: #5C5C5C;
+    font-weight: 400;
+    font-size: 21px;
+    font-family: 'Mulish', sans-serif;
+}
+#Main img {
+    width: 548px;
+    height: 583px;
+    margin: 75px 0px 130px 0px;
 }
 
-.img {    
-    margin-left: 110vh;    
-    margin-top: -40vh;
-}
+/* SectionMain End */
 
-.img img {
-    height: auto;
-    width: 42vh;
-}
-/* Content Satu Selesai */
-
-
-/* Content Dua */
-.container2 {
-    height: 90vh;
+/* Section Menu */
+#Menu {
     background-color: #F6F6F6;
 }
 
-.text3 {
-    padding-top: 7vh;
+#Menu .title{
+    margin: 72px 0px 0px 0px;
     text-align: center;
-    font-size: 30px;
-    font-weight: 900px;
-}
-
-.text4 {
-    text-align: center;
-    padding-top: 3vh;
-    font-size: 40px;
-}
-
-.text4 span {
-    color: #F2CA44;
-}
-
-.bungkus {
-    margin-top: 2vh;    
-    height: 50vh;    
-}
-
-.luaran {
-    list-style: none;
-    
-}
-
-.card {
-    background-color: #fff;
-    height: 33vh;
-    width: 30vh;
-    margin-left: 20vh;
-    border-radius: 20px;
-}
-
-.img1 {
-    margin-top: 6vh;
-    height: auto;
-    width: 8vh;
-    margin-left: 3vh;
-}
-
-.text5 {
-    font-size: 20px;
-    padding-top: 2vh;
-    margin-left: 3vh;
-}
-
-.text6 {
-    color: #727272;
-    padding-top: 1vh;
-    font-size: 12px;
-    margin-left: 3vh;
-}
-
-.card1 {
-    background-color: #fff;
-    margin-left: 65vh;
-    height: 33vh;
-    width: 30vh;
-    margin-top: -33vh;
-    border-radius: 20px;
-}
-
-.card2 {
-    background-color: #fff;
-    margin-left: 110vh;
-    width: 30vh;
-    height: 33vh;
-    margin-top: -33vh;
-    border-radius: 20px;
-}
-
-.card3 {
-    background-color: #fff;
-    margin-left: 155vh;
-    width: 30vh;
-    height: 33vh;
-    margin-top: -33vh;
-    border-radius: 20px;
-}
-/* Content 2 Selesai */
-
-
-/* Content 3 */
-.container3 {
-    background-color: #F2CA44;
-    height: 100vh;
-}
-
-.text7 {
-    padding-top: 4vh;
-    text-align: center;
-    color: #fff;
-    font-size: 30px;
-}
-
-.text8 {
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-.wrap1 {
-    margin-top: 5vh;
-    
-    height: 70vh;
-}
-
-.box1 {
-    background-color: #fff;
-    margin-left: 15vh;
-    width: 355px;
-    height: 60vh;
-    list-style: none;
-    border-radius: 20px;    
-    object-fit: contain;
-}
-
-.img2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    width: 47.8vh;
-    object-fit: cover;
-}
-
-.text9 {
-    font-size: 27px;
-    padding-top: 2vh;
-    margin-left: 3vh;
-    color: #000;
-}
-
-.text10 {
-    font-size: 18px;
-    padding-top: 2vh;
-    margin-left: 3vh;
-}
-
-.box2 {
-    background-color: #fff;
-    margin-left: 77vh;
-    margin-top: -60vh;
-    width: 355px;
-    height: 60vh;
-    list-style: none;
-    border-radius: 20px;
-}
-
-.box3 {
-    background-color: #fff;
-    margin-left: 140vh;
-    margin-top: -60vh;
-    width: 355px;
-    height: 60vh;
-    list-style: none;
-    border-radius: 20px;
-}
-/* Content 3 Selesai */
-
-/* Content 4 */
-.container4 {
-    background-image: url('assets/image/foto.png');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 120vh;
-}
-
-.text11 {
-    padding-top: 2vh;
-    text-align: center;
-    font-size: 60px;
+    color: #8D8D8D;
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
     font-weight: bold;
-    color: white;    
 }
 
-.text11 span {
+#Menu .sub-title {
+    text-align: center;
+    color: #000;
+    font-size: 58px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    line-height: 63px;
+    margin-bottom: 28px;
+}
+
+#Menu .sub-title span {
     color: #F2CA44;
 }
 
-.text12 {
-    padding-top: 5vh;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 900;
-    color: #fff;    
-}
-
-.btnlangganan {
-    padding-top: 6vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.btnlang {
-    background-color: #F2CA44;
-    width: 20vh;
-    height: 7vh;    
+#Menu .card {
+    width: 304px;
+    height: 311px;
     border: none;
-    border-radius: 30px;
-    margin-bottom: 10vh;
+    border-radius: 16px;  
+    padding: 42px 30px 42px 35px;  
+    margin: 0px 0px 67px 0px;
 }
 
-.btnlang a {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 900;
-}
-
-.card5 {    
-    background-color: #fff;
-    padding-top: 10vh;
-    margin: auto;
-    width: 90vh;
-    height: 50vh;
-    border-radius: 20px;
-}
-
-.rounded {    
-    height: 25vh;
-    margin-top: -9vh;
-}
-
-.rounded1 {    
-    height: 24vh;
-    width: 30vh;
-    margin-left: 2vh;
-    list-style: none;
-}
-
-.rounded2 {    
-    height: 24vh;
-    width: 30vh;
-    margin-left: 31vh;
-    list-style: none;
-    margin-top: -24vh;
-}
-
-.rounded3 {    
-    height: 24vh;
-    width: 30vh;
-    margin-left: 60vh;
-    list-style: none;
-    margin-top: -24vh;
-}
-
-.text13 {
-    padding-top: 2vh;
-    text-align: center;
-    font-weight: 900;
-    color: #000;    
-}
-
-.text13 span {
-    color: #F2CA44;
-}
-
-.text14 {
-    padding-top: 3vh;
-    text-align: center;
-    font-size: 14px;
-    color: #727272;
-}
-/* Content 4 Selesai */
-
-
-/* Content 5 */
-.container5 {
-    
-    height: 100vh;
-}
-
-.bungkus1 {
-    padding-top: 85vh;    
-    height: 20vh;
-}
-
-.kotak {    
-    margin-top: -70vh;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-}
-
-.kotak1 {
-    background-color: #F2CA44;
-    height: 600px;
-    width: 400px;
-    list-style: none;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.kotak2 {
-    background-color: #F2CA44;
-    height: 600px;
-    width: 400px;
-    list-style: none;
-    border-radius: 20px;
-    border: 1px solid black;
-}
-
-.text15{
-    text-align: center;
-    padding-top: 5vh;
-    color: #fff;
-    font-weight: 900;    
-}
-
-.img4 {
-    padding-top: 5vh;
-    height: auto;
-    width: 398px;
-}
-
-.text16 {
-    padding-top: 2vh;
-    color: #fff;
-    font-weight: bold;
-    text-align: center;
-}
-/* Content 5 Selesai */
-
-
-/* Content 6 */
-.container6 {    
-    height: 60vh;
-}
-
-.bungkus2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.img5 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text17 {
-    padding-top: 3vh;
-    color: #000;
-    font-weight: 900;
-    font-size: 20px;
-    text-align: center;
-}
-/* Container 6 Selesai */
-
-/* Container 7 */
-.container7 {
-    background-color: #F2CA44;
-    height: 50vh;
-}
-
-.kot {
-    padding-top: 25vh;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.kot2 {
-    list-style: none;    
-}
-
-.overlay {
-    position: absolute;
-    margin-top: -36.5vh;
-    margin-left: -0.4500vh;
-    opacity: 0;
-    transition: opacity 0.9s ease-in-out;
-    background-color: rgb(71, 68, 68) ;
-    cursor: pointer;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 36vh;
-    width: 53vh;
-    border-radius: 20px;    
-}
-
-
-.conten {    
-    margin-left: 2vh;        
-}
-
-.kot2:hover .overlay {
-    opacity: 0.9;    
-}
-
-.img6 {
-    margin-top: 5vh;
-    margin-left: 3vh;
-}
-
-.text20 {
-    padding-top: 9vh;
-    padding-left: 3vh;    
-}
-
-.text21 {
-    padding-left: 3vh;    
-}
-/* Container 7 Selesai */
-
-/* Footer */
-.footer {
-    background-color: #333333;
-    height: 40vh;
-}
-
-.img5 {
-    padding-top: 2vh;
-    padding-left: 20vh;
-    height: auto;    
-}
-
-.bungkus4 {
-    padding-left: 20vh;
-    
-}
-
-.ron1 {
-    margin-top: -3vh;
-    list-style: none;    
-}
-
-.text18 {
-    padding-top: 1vh;
-    font-size: 24px;
-    color: #fff;
-    font-weight: bold;
-}
-
-.text19 {
-    padding-top: 1vh;
-    color: #fff;
-    font-size: 18px;
-}
-
-.bungkus5 {
-    margin-left: 160vh;
-    margin-top: -45vh;
-}
-
-.text20 {
-    list-style: none;
-    color: #fff;
-}
-
-.text21 {
+#Menu .card .desc-title .title {
     font-size: 25px;
-    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: #000;
+    text-align: start;
+    margin: 24px 0px 7px 0px;
 }
 
-.bungkus6 {
-    margin-left: 160vh;
+#Menu .card .desc-title .sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Mulish', sans-serif;
+    color: #828282;
+    text-align: start;
+    line-height: 20px;
+}
+/* Section Menu End */
+
+#Layanan {
+    background-color: #F2CA44;
 }
 
-.icon_sosial {
-    list-style: none;
-    padding-top: 1vh;    
+#Layanan .title {
+    color: #FFF;
+    text-align: center;
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    margin: 68px 0px 0px 0px;
 }
 
-.icon_sosial a{
-    color: #fff;
-    margin-left: 1vh;
-    padding-left: 2vh;
+#Layanan .sub-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 58px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
 }
-/* Footer Selesai */
+
+#Layanan .card {
+    width: 415px;
+    height: 523px;
+    border: none;
+    border-radius: 21px;    
+}
+
+#Layanan .card .desc-title .title {
+    font-size: 33px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-align: start;    
+}
+
+#Layanan .card .desc-title .sub-title {
+    color: #504F4F;
+    font-size: 21px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    text-align: start;
+}
