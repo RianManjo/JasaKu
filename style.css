@@ -157,6 +157,10 @@
     border-radius: 21px;    
 }
 
+#Layanan .card .desc-title {
+    margin: -30px 40px 0px 23px;
+}
+
 #Layanan .card .desc-title .title {
     font-size: 33px;
     font-family: 'Mulish', sans-serif;
@@ -172,3 +176,4 @@
     font-weight: 400;
     text-align: start;
 }
+
