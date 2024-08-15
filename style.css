@@ -284,3 +284,45 @@
     padding: 67px 0px 71px 22px;    
 }
 /* Section Our Team End */
+
+/* Section Footer */
+#Footer {
+    background-color: #333333;
+}
+
+#Footer .logo img {
+    width: 231px;
+    height: 69px;
+}
+
+#Footer .country a {
+    margin: 0px 15px 0px 0px;
+}
+
+#Footer .address .title, #Footer .address .sub-title {
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+}
+
+#Footer .copyright {
+    margin: 93px 0px 0px 0px;
+    color: #FFF;
+}
+
+#Footer .contact {
+    color: #FFF;    
+}
+
+#Footer .contact .title {
+    font-size: 24px;
+}
+
+#Footer .social-media {
+    margin: 175px 0px 0px 0px;
+}
+
+#Footer .social-media a {
+    margin-right    : 12px;
+}
+/* Section Footer End */
