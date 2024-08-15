@@ -326,3 +326,13 @@
     margin-right    : 12px;
 }
 /* Section Footer End */
+
+/* Responsive */
+@media (max-width: 767px) {
+
+    /* Display none */
+    *,html {
+        display: none;
+    }
+}
+/* Responsive End */
