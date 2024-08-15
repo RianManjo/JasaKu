@@ -203,7 +203,58 @@
 /* Section Our Team */
 #Our-Team {
     background-color: #F2CA44;
+}
 
+#Our-Team .card-1::before, #Our-Team .card-2::before, #Our-Team .card-3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    transition: background-color 0.3s ease; 
+    border-radius: 12px;
+}
+
+#Our-Team .card-1:hover::before, #Our-Team .card-2:hover::before, #Our-Team .card-3:hover::before {
+    background-color: rgba(0, 0, 0, 0.5);   
+    border-radius: 12px;  
+}
+
+#Our-Team .card-1 .title, #Our-Team .card-2 .title, #Our-Team .card-3 .title {
+    display: none;
+    position: absolute;        
+    color: #F2CA44;
+    font-size: 21px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;        
+}
+
+#Our-Team .card-1:hover .title, #Our-Team .card-2:hover .title, #Our-Team .card-3:hover .title {
+    display: block;
+    margin: 23px 0px 0px 0px;
+}
+
+#Our-Team .card-1 .sub-title, #Our-Team .card-2 .sub-title, #Our-Team .card-3 .sub-title {
+    display: none;    
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+#Our-Team .card-1:hover .sub-title, #Our-Team .card-2:hover .sub-title, #Our-Team .card-3:hover .sub-title {
+    display: block;
+    color: #212121;
+}
+
+#Our-Team .card-1 .logo, #Our-Team .card-2 .logo, #Our-Team .card-3 .logo {
+    display: none;
+}
+
+#Our-Team .card-1:hover .logo, #Our-Team .card-2:hover .logo, #Our-Team .card-3:hover .logo {
+    display: block;    
 }
 
 #Our-Team .card-1 {
@@ -211,50 +262,9 @@
     width: 409px;
     height: 279px;
     position: relative;
-    overflow: hidden;     
+    overflow: hidden; 
+    padding: 67px 0px 71px 22px;    
 }
-
-#Our-Team .card-1::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.3s ease; 
-}
-
-#Our-Team .card-1:hover::before {
-    background-color: rgba(0, 0, 0, 0.5);     
-}
-
-#Our-Team .card-1 .title {
-    display: none;
-    position: absolute;        
-    color: #F2CA44;
-    font-size: 21px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 700;    
-}
-
-#Our-Team .card-1:hover .title {
-    display: block;
-}
-
-#Our-Team .card-1 .sub-title {
-    display: none;
-    position: absolute;
-    color: #FFF;
-    font-size: 18px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-}
-
-#Our-Team .card-1:hover .sub-title {
-    display: block;
-}
-
 
 #Our-Team .card-2 {
     background-image: url('assets/images/our-card-2.svg');
@@ -262,47 +272,7 @@
     height: 279px;
     position: relative;
     overflow: hidden;
-}
-
-#Our-Team .card-2::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.3s ease; 
-}
-
-#Our-Team .card-2:hover::before {
-    background-color: rgba(0, 0, 0, 0.5);     
-}
-
-#Our-Team .card-2 .title {
-    display: none;
-    position: absolute;        
-    color: #F2CA44;
-    font-size: 21px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 700;    
-}
-
-#Our-Team .card-2:hover .title {
-    display: block;
-}
-
-#Our-Team .card-2 .sub-title {
-    display: none;
-    position: absolute;
-    color: #FFF;
-    font-size: 18px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-}
-
-#Our-Team .card-2:hover .sub-title {
-    display: block;
+    padding: 67px 0px 71px 22px;    
 }
 
 #Our-Team .card-3 {
@@ -311,47 +281,6 @@
     height: 279px;
     position: relative;
     overflow: hidden;
-}
-
-#Our-Team .card-3::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0);
-    transition: background-color 0.3s ease; 
-}
-
-#Our-Team .card-3:hover::before {
-    background-color: rgba(0, 0, 0, 0.5);     
-}
-
-#Our-Team .card-3 .title {
-    display: none;
-    position: absolute;        
-    color: #F2CA44;
-    font-size: 21px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 700;    
-}
-
-#Our-Team .card-3:hover .title {
-    display: block;
-}
-
-
-#Our-Team .card-3 .sub-title {
-    display: none;
-    position: absolute;
-    color: #FFF;
-    font-size: 18px;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 600;
-}
-
-#Our-Team .card-3:hover .sub-title {
-    display: block;
+    padding: 67px 0px 71px 22px;    
 }
 /* Section Our Team End */
